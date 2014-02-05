@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Colette Snow Web Development, Front-end Development, Back-end Development, WordPress</title>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500italic|Merienda+One|Coustard' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
-
-<header>
-	<div class="inner">
-		<div id="logo">
-			<h1><span>{</span>Colette<span>Snow</span><span>}</span></h1>
-			<p>Web Developer&nbsp;</p>
-		</div>
-
-		<nav>
-			<ul>
-				<li id="nav-current"><a href="index.html">Home</a></li>
-				<li><a href="portfolio">Portfolio</a></li>		
-				<li><a href="services">Services</a></li>
-				<li><a href="contact">Contact</a></li>
-				<li><a href="about">About</a></li>
-			</u>
-		</nav>
-	</div>
-</header>
+{{% include header.html pagetitle="" %}}
 
 <div id="content">
 	<div class="inner">
@@ -54,20 +26,4 @@
 	</div>
 </div>
 
-<footer>
-	<div class="inner">
-		<div class="copyright vcard">
-			<abbr title="Copyright">&copy;</abbr> 2013 Colette Snow, All Rights Reserved.<br />
-			<span class="fn">Colette Snow</span>, Front End Development, Backend Development<br />
-			<span class="location">Melbourne, <abbr title="Victoria">VIC</a>, Australia</span> | <a href="mailto:colette.a.snow@gmail.com" class="email">colette.a.snow@gmail.com</a>
-		</div>
-		<div class="social">
-			<a href="http://twitter.com/colette_snow" rel="me" title="Twitter">@colette_snow</a>  <a href="http://www.facebook.com/colette.a.snow" rel="me">Facebook</a>  <a href="" rel="me">LinkedIn</a>  <a href="" rel="me">GitHub</a>
-		</div>
-	</div>
-</footer>
-
-<a href="https://github.com/colettesnow/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-
-</body>
-</html>
+{{% include footer.html %}}
