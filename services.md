@@ -6,10 +6,10 @@ layout: default
 
 Below are just some of the services we offer:
 
-* WordPress Theme or Plugin Development
-* Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
-* Custom Web Development
-* PSD to HTML or Email
+* [WordPress Theme or Plugin Development](#wordpress-theme-or-plugin-development)
+* [Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development](#other-content_management_system_blog_and_forum_customisation_theme_and_plugin_development)
+* [Custom Web Development](#custom-web-development)
+* [Design to HTML or Email](#design-to-html-or-email)
 
 Is the service you want not listed? We may still be able to accomodate you - [get in touch](/contact/)!
 
@@ -22,7 +22,7 @@ We specialise in WordPress development.
 
 #### What can you do with WordPress?
 
-### Content Management System, Blog and Forum Customisation, Theme and Plugin Development
+### Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
 
 While we specialise in WordPress, we can also work with the following platforms. If the platform you want isn't listed, get in touch and we still may be able to work with it.
 
@@ -68,7 +68,7 @@ If your needs are not met by an existing solution, we can take your brief and de
 
 1. subject to approval, we will require access to the source code before commiting to the project.
 
-### PSD to HTML
+### Design to HTML or Email
 
 If you have had another designer create a design for you and need it converted to a content management, blog or forum template, static website or email template, we can take that design and turn it into code that will work across all major web browsers and email clients (if email template).
 
