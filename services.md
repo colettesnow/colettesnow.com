@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Services
+# Services
 
 Below are just some of the services we offer:
 
@@ -13,27 +13,27 @@ Below are just some of the services we offer:
 
 Is the service you want not listed? We may still be able to accomodate you - [get in touch](/contact/)!
 
-### WordPress Theme and Plugin Development
+## WordPress Theme and Plugin Development
 We specialise in WordPress development.
 
-#### What is WordPress?
+### What is WordPress?
 
-#### Why WordPress?
+### Why WordPress?
 
-#### What can you do with WordPress?
+### What can you do with WordPress?
 
-### Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
+## Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
 
 While we specialise in WordPress, we can also work with the following platforms. If the platform you want isn't listed, get in touch and we still may be able to work with it.
 
-#### Blogs
+### Blogs
 
 * Serendipity
 * Chyrp
 * Habari
 * Squarespace
 
-#### Content Management Systems
+### Content Management Systems
 
 * Drupal
 * Joomla
@@ -41,7 +41,7 @@ While we specialise in WordPress, we can also work with the following platforms.
 * concrete5
 * DotClear
 
-#### Forums
+### Forums
 
 * Simple Machines Forum
 * FluxBB / PunBB
@@ -49,7 +49,7 @@ While we specialise in WordPress, we can also work with the following platforms.
 * MyBB
 * Vanilla
 
-#### eCommerce
+### eCommerce
 
 * osCommerce
 * BigCommerce
@@ -62,13 +62,13 @@ For each of these software and services, we can customise them to meet your need
 
 You can find examples of our work in the [portfolio](/portfolio) or [get in touch](/contact) for a quote.
 
-### Custom Web Development
+## Custom Web Development
 
 If your needs are not met by an existing solution, we can take your brief and develop a solution to meet your needs or that of your business. We may also be able to customise your existing custom solution so that it may continue to meet your needs.
 
 1. subject to approval, we will require access to the source code before commiting to the project.
 
-### Design to HTML or Email
+## Design to HTML or Email
 
 If you have had another designer create a design for you and need it converted to a content management, blog or forum template, static website or email template, we can take that design and turn it into code that will work across all major web browsers and email clients (if email template).
 
