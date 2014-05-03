@@ -24,7 +24,7 @@ She has experience with the following languages and technologies:
 You can get in contact with Colette using the [contact page](/contact) or via [Twitter](http://twitter.com/colette_snow/), [Facebook](http://facebook.com/colette.a.snow/), [Google+](https://plus.google.com/106627462472248198069/posts) or [LinkedIn](http://au.linkedin.com/in/colettesnow/).
 
 ## PGP Public Key ([What is PGP?](http://www.wisegeek.com/what-is-pgp.html)) ([Download](files/0xF0712BC9-pub.asc))
-```
+~~~
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (MingW32)
 
@@ -50,4 +50,4 @@ wWXAF1+jZCd+3InE+I9nU0i3ik0hPkWdRLnv8iJbKEbAQjQP0hlG05E1eLroa/7B
 zDSrgOCx9cCrHGi3amnMwsa5U7ikQHyQjIf+jj1yx5s16JNFaByHTgn0MurSWnI=
 =YwlC
 -----END PGP PUBLIC KEY BLOCK-----
-```
+~~~
