@@ -10,6 +10,7 @@ Colette has a passion for the web and is a strong proponent of web standards and
 She is currently studying for another two undergraduate degrees - a Bachelor of Technology (Computing Studies) through RMIT and a Bachelor of Commerce (Business Law) through Curtin, both via distance allowing her to study full time while also allowing her to be flexiable in her work hours.
 
 She has experience with the following languages and technologies:
+
 * HTML4, XHTML 1.1, and HTML5
 * CSS (all current versions), LESS
 * PHP
