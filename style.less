@@ -1,32 +1,38 @@
 @background-color: #d5c9d0;
+@foreground-color: #fafafa;
+@accent-color: #420b2a;
+@heading-color: #420b2a;
+@link-color: #420b2a;
+@heading-color: #5d4b55;
+@content-accent: #cfcfcf;
 
 body {
-	background: #d5c9d0;
+	background: @background-color;
 	margin: 0;
 	font: normal 11pt Ubuntu, sans-serif;
 }
 .inner { width: 920px; 	margin: 20px auto 0 auto; padding: 0 10px; }
 
-a { color: #420b2a; }
+a { color: @link-color; }
 
 header {
-	border-top: 8px solid #420b2a;
+	border-top: 8px solid @accent-color;
 
 	#logo {
 		height: 60px;
 		display: inline-block;
 		width: 220px;
 
-		h1 { 
+		h1 {
 			font: 300 24pt "Merienda One", sans-serif;
-			margin: 0; 
-			color: #5d4b55; 
+			margin: 0;
+			color: @heading-color;
 
-			span:nth-child(2) { 
+			span:nth-child(2) {
 				font-weight: bold;
 				color: #420b2a; 
 			}
-	}
+	   }
     }
 
 	p { font: 500 12pt "Merienda One", sans-serif; text-align: right; margin: 0; padding-right: 20px; }
@@ -48,7 +54,7 @@ header {
 				display: inline-block;
 				padding-right: 20px;
 			font-family: Coustard, sans-serif;
-				a { text-decoration: none; color: #420b2a; font-size: 14pt;
+				a { text-decoration: none; color: @link-color; font-size: 14pt;
 				&:hover { text-decoration: underline; } }
 			}
 		}
@@ -56,13 +62,13 @@ header {
 
 }
 
-#content { 
-	border-top: 1px outset #cfcfcf;
-	border-bottom: 1px inset #cfcfcf;
+#content {
+	border-top: 1px outset @content-accent;
+	border-bottom: 1px inset @content-accent;
 	min-height: 400px;
-	background: #fafafa;
+	background: @foreground-color;
 
-	h1 { font-family: Coustard, sans-serif; color: #420b2a; }
+	h1 { font-family: Coustard, sans-serif; color: @heading-color; }
 
 	section {
 		vertical-align: top;
@@ -100,10 +106,12 @@ footer {
 	height: 80px;
 	font-size: 10pt;
 	line-height: 20px;
-	.copyright { display: inline-block; width: 450px;
-	   .social { display: inline-block; vertical-align: top; width: 450px; text-align: center;
-		  a { display: inline-block; padding-right: 10px; }
-		  &:last-child { padding-right: 0; } 
-        }
-	 }
-}
+	.copyright { display: inline-block; width: 450px; }
+    .social { 
+        display: inline-block;
+        vertical-align: top;
+        width: 450px;text-align: center;
+        a { display: inline-block; padding-right: 10px; }
+        &:last-child { padding-right: 0; }
+    }
+ }
