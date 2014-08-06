@@ -17,9 +17,9 @@ Is the service you want not listed? I may still be able to accomodate you - [get
 
 WordPress is an open-source blogging and content management platform. It allows you to create and maintain everything from a small brochure site, a news or blog site, online store (eCommerce), corporate web presence or portfolio.
 
-I can customise WordPress to meet nearly any need, whether that includes an online store or photo gallery or just a simple content focused website. Every website I create will be accessible, standards compliant, social media and search engine friendly.
+I can customise WordPress to meet nearly any need, whether that includes an online store or photo gallery or just a simple content focused website. Every website I create will be accessible, standards compliant, and social media and search engine friendly.
 
-If you're interested in using WordPress for your next and existing website, don't hesitate to get into [contact](/contact/). I can also extend your existing WordPress website if you are already using the platform.
+If you are interested in using WordPress for your next or existing website, do not hesitate to get into [contact](/contact/) and I will see through discussion with you how I can best meet your needs. I can also extend your existing WordPress website if you are already using the platform.
 
 ## Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
 
