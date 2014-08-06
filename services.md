@@ -14,15 +14,12 @@ Below are just some of the services I offer:
 Is the service you want not listed? I may still be able to accomodate you - [get in touch](/contact/)!
 
 ## WordPress Theme or Plugin Development
-I specialise in WordPress development.
 
-### What is WordPress?
+WordPress is an open-source blogging and content management platform. It allows you to create and maintain everything from a small brochure site, a news or blog site, online store (eCommerce), corporate web presence or portfolio.
 
-### Why WordPress?
+I can customise WordPress to meet nearly any need, whether that includes an online store or photo gallery or just a simple content focused website. Every website I create will be accessible, standards compliant, social media and search engine friendly.
 
-
-
-### What can you do with WordPress?
+If you're interested in using WordPress for your next and existing website, don't hesitate to get into [contact](/contact/). I can also extend your existing WordPress website if you are already using the platform.
 
 ## Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
 
@@ -30,34 +27,37 @@ While I specialise in WordPress, I can also work with the following platforms. I
 
 ### Blogs
 
-* Serendipity
 * Chyrp
+* Edge
 * Habari
+* Serendipity
 * Squarespace
 
 ### Content Management Systems
 
-* Drupal
-* Joomla
 * CMS Made System
 * concrete5
 * DotClear
+* Drupal
+* Joomla
 
 ### Forums
 
-* Simple Machines Forum
+* bbPress
+* Discourse
 * FluxBB / PunBB
-* phpBB
 * MyBB
+* phpBB
+* Simple Machines Forum
 * Vanilla
 
 ### eCommerce
 
-* osCommerce
 * BigCommerce
-* OpenCart
-* Shopify
 * Magento
+* OpenCart
+* osCommerce
+* Shopify
 
 For each of these software and services, I can customise them to meet your needs through theme and plugin development.
 
