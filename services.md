@@ -6,10 +6,10 @@ layout: default
 
 Below are just some of the services I offer:
 
-* [WordPress Theme or Plugin Development](#wordpress_theme_or_plugin_development)
-* [Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development](#other_content_management_system_blog_and_forum_customisation_theme_and_plugin_development)
-* [Custom Web Development](#custom_web_development)
-* [Design to HTML or Email](#design_to_html_or_email)
+* [WordPress Theme or Plugin Development](#wordpress-theme-or-plugin-development)
+* [Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development](#other-content_management-system-blog-and-forum-customisation-theme-and-plugin-development)
+* [Custom Web Development](#custom-web-development)
+* [Design to HTML or Email](#design-to-html-or-email)
 
 Is the service you want not listed? I may still be able to accomodate you - [get in touch](/contact/)!
 
@@ -63,7 +63,7 @@ For each of these software and services, I can customise them to meet your needs
 
 *Themes* change the look of your website while *plugins* extend the software to offer features that were not originally offered by the software or to change the way an existing feature works.
 
-You can find examples of my work in the [portfolio](/portfolio) or [get in touch](/contact) for a quote.
+You can find examples of my work in the [portfolio](/portfolio#websites) or [get in touch](/contact) for a quote.
 
 ## Custom Web Development
 
