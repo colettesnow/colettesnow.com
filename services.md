@@ -12,7 +12,7 @@ Below are just some of the services I offer:
 * [Custom Web Development](#custom-web-development)
 * [Design to HTML or Email](#design-to-html-or-email)
 
-Is the service you want not listed? I may still be able to accomodate you - [get in touch](/contact)!
+Is the service you want not listed? I may still be able to accomodate you - [get in touch](/contact.html)!
 
 ## WordPress Theme or Plugin Development
 
@@ -20,7 +20,7 @@ WordPress is an open-source blogging and content management platform. It allows 
 
 I can customise WordPress to meet nearly any need, whether that includes an online store or photo gallery or just a simple content focused website. Every website I create will be accessible, standards compliant, and social media and search engine friendly.
 
-If you are interested in using WordPress for your next or existing website, do not hesitate to get into [contact](/contact) and I will see through discussion with you how I can best meet your needs. I can also extend your existing WordPress website if you are already using the platform.
+If you are interested in using WordPress for your next or existing website, do not hesitate to get into [contact](/contact.html) and I will see through discussion with you how I can best meet your needs. I can also extend your existing WordPress website if you are already using the platform.
 
 ## Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
 
@@ -64,7 +64,7 @@ For each of these software and services, I can customise them to meet your needs
 
 *Themes* change the look of your website while *plugins* extend the software to offer features that were not originally offered by the software or to change the way an existing feature works.
 
-You can find examples of my work in the [portfolio](/portfolio#websites) or [get in touch](/contact) for a quote.
+You can find examples of my work in the [portfolio](/portfolio.html#websites) or [get in touch](/contact.html) for a quote.
 
 ## Custom Web Development
 

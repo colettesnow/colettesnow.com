@@ -23,7 +23,7 @@ She has experience with the following languages and technologies:
 * Twitter Bootstrap, 960px
 * CodeIgniter, Laravel and WordPress as a Framework
 
-You can get in contact with Colette using the [contact page](/contact) or via [Twitter](http://twitter.com/colette_snow/), [Facebook](http://facebook.com/colette.a.snow/), [Google+](https://plus.google.com/106627462472248198069/posts) or [LinkedIn](http://au.linkedin.com/in/colettesnow/).
+You can get in contact with Colette using the [contact page](/contact.html) or via [Twitter](http://twitter.com/colette_snow/), [Facebook](http://facebook.com/colette.a.snow/), [Google+](https://plus.google.com/106627462472248198069/posts) or [LinkedIn](http://au.linkedin.com/in/colettesnow/).
 
 ## PGP Public Key ([What is PGP?](http://www.wisegeek.com/what-is-pgp.html)) ([Download](files/0xF0712BC9-pub.asc))
 ~~~
