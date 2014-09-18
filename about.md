@@ -1,5 +1,6 @@
 ---
 layout: default
+title: About Colette Snow
 ---
 # About Colette Snow
 
