@@ -246,6 +246,60 @@ a {
     display: block;
     text-align: center;
   }
+  .contact_form fieldset {
+    border: 0;
+    padding: 0;
+  }
+  .contact_form label {
+    display: block;
+    padding-right: 5px;
+  }
+  .contact_form label strong {
+    display: block;
+    text-transform: lowercase;
+    padding: 5px 0 5px 0;
+  }
+  .contact_form label input[type="text"],
+  .contact_form label input[type="email"],
+  .contact_form label textarea {
+    padding: 10px;
+    font: normal 11pt Ubuntu, sans-serif;
+    border: 1px solid #ccc;
+  }
+  .contact_form label input[type="text"],
+  .contact_form label input[type="email"] {
+    width: 90%;
+  }
+  .contact_form label:nth-child(3) {
+    display: block;
+  }
+  .contact_form label textarea {
+    width: 90%;
+    height: 300px;
+  }
+  .contact_form input[type="submit"] {
+    background: #420b2a;
+    color: #FFFFFF;
+    border: 1px solid #000;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    font-size: 13pt;
+  }
+  .other_options {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .other_options dl dt {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  .other_options dl dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .other_options dl a {
+    text-decoration: none;
+  }
   a[href="https://github.com/colettesnow/"] {
     display: none;
   }
