@@ -11,125 +11,225 @@ body {
 	margin: 0;
 	font: normal 11pt Ubuntu, sans-serif;
 }
-.inner { width: 920px; 	margin: 20px auto 0 auto; padding: 0 10px; }
 
 a { color: @link-color; }
 
-header {
-	border-top: 8px solid @accent-color;
+@media only screen and (min-width: 600px)
+{
 
-	#logo {
-		height: 60px;
-		display: inline-block;
-		width: 220px;
-
-		a { text-decoration: none; }
-
-		h1 {
-			font: 300 24pt "Merienda One", sans-serif;
-			margin: 0;
-			color: @heading-color;
-
-			span:nth-child(2) {
-				font-weight: bold;
-				color: #420b2a;
-			}
-	   }
-    }
-
-	p { font: 500 12pt "Merienda One", sans-serif; text-align: right; margin: 0; padding-right: 20px; }
-
-	nav {
-		width: 680px;
-		height: 70px;
-		display: inline-block;
-		vertical-align: middle;
-		text-align: right;
-		font-weight: medium;
-		padding-top: 10px;
-
-		ul {
-			margin: 0;
-
-			li {
-				text-transform: lowercase;
-				display: inline-block;
-				padding-right: 20px;
-			font-family: Coustard, sans-serif;
-				a { text-decoration: none; color: @link-color; font-size: 14pt;
-				&:hover { text-decoration: underline; } }
-			}
-		}
+	.inner { 
+		width: 940px;
+		margin: 20px auto 0 auto;
+		padding: 0 10px; 
+		box-sizing: border-box;
 	}
 
-}
+	header {
+		border-top: 8px solid @accent-color;
 
-#content {
-	border-top: 1px outset @content-accent;
-	border-bottom: 1px inset @content-accent;
-	min-height: 400px;
-	background: @foreground-color;
+		.logo {
+			height: 60px;
+			display: inline-block;
+			width: 220px;
+
+			a { text-decoration: none; }
+
+			.title {
+				font: 300 24pt "Merienda One", sans-serif;
+				margin: 0;
+				color: @heading-color;
+
+				span:nth-child(2) {
+					font-weight: bold;
+					color: #420b2a;
+				}
+		   }
+	    }
+
+		p { font: 500 12pt "Merienda One", sans-serif; text-align: right; margin: 0; padding-right: 20px; }
+
+		nav {
+			width: 680px;
+			height: 70px;
+			display: inline-block;
+			vertical-align: middle;
+			text-align: right;
+			font-weight: normal;
+			padding-top: 10px;
+			box-sizing: border-box;
+
+			ul {
+				margin: 0;
+
+				li {
+					text-transform: lowercase;
+					display: inline-block;
+					padding-right: 20px;
+					font-family: Coustard, sans-serif;
+					a { text-decoration: none; color: @link-color; font-size: 14pt; }
+					&:hover { text-decoration: underline; }
+				}
+			}
+		}
+
+	}
 
 	h1 { font-family: Coustard, sans-serif; color: @heading-color; font-weight: 500; }
 
-	section {
-		vertical-align: top;
-		display: inline-block;
-		width: 290px;
-		margin-right: 20px;
-		&:last-child { margin-right: 0; }
-	}
+	.content {
+		border-top: 1px outset @content-accent;
+		border-bottom: 1px inset @content-accent;
+		min-height: 400px;
+		background: @foreground-color;
 
-	p, li { line-height: 25px; }
-
-	.contact_form {
-        display: inline-block;
-		fieldset { border: 0; padding: 0; }
-		label {
+		section {
+			vertical-align: top;
 			display: inline-block;
-			padding-right: 5px;
-			strong { display: block; text-transform: lowercase; padding: 5px 0 5px 0; }
-			input[type="text"], input[type="email"], textarea { padding: 10px; font: normal 11pt Ubuntu, sans-serif; border: 1px solid #ccc; }
-			input[type="text"], input[type="email"] { width: 295px; }
-			&:nth-child(3) { display: block; }
-			textarea { width: 620px; height: 300px; }
+			width: 290px;
+			margin-right: 20px;
+			&:last-child { margin-right: 0; }
 		}
-		input[type="submit"] { background: #420b2a; color: #FFFFFF; border: 1px solid #000; font-weight: bold; padding: 5px 20px 5px 20px; font-size: 13pt; }
-	}
-    
-    .other_options {
-        display:inline-block;
-        vertical-align: top;
-        padding-left: 20px;
-        dl { 
-            dt { font-weight: bold; margin-bottom: 3px; }
-            dd { margin-left: 0px; margin-bottom: 10px; }
-            a { text-decoration: none; }
-        }
-    }
 
-    .portfolio {
-        margin-left: -80px;
-        margin-right: -80px;
-        text-align:  center;
-     }
+		p, li { line-height: 25px; }
+
+		.contact_form {
+	        display: inline-block;
+			fieldset { border: 0; padding: 0; }
+			label {
+				display: inline-block;
+				padding-right: 5px;
+				strong { display: block; text-transform: lowercase; padding: 5px 0 5px 0; }
+				input[type="text"], input[type="email"], textarea { padding: 10px; font: normal 11pt Ubuntu, sans-serif; border: 1px solid #ccc; }
+				input[type="text"], input[type="email"] { width: 295px; }
+				&:nth-child(3) { display: block; }
+				textarea { width: 620px; height: 300px; }
+			}
+			input[type="submit"] { background: #420b2a; color: #FFFFFF; border: 1px solid #000; font-weight: bold; padding: 5px 20px 5px 20px; font-size: 13pt; }
+		}
+	    
+	    .other_options {
+	        display:inline-block;
+	        vertical-align: top;
+	        padding-left: 20px;
+	        dl { 
+	            dt { font-weight: bold; margin-bottom: 3px; }
+	            dd { margin-left: 0; margin-bottom: 10px; }
+	            a { text-decoration: none; }
+	        }
+	    }
+
+	    .portfolio {
+	        margin-left: -80px;
+	        margin-right: -80px;
+	        text-align:  center;
+	    }
+
+	}
+
+	footer {
+		height: 80px;
+		font-size: 10pt;
+		line-height: 20px;
+		.copyright { display: inline-block; width: 450px; }
+	    .social {
+	        display: inline-block;
+	        vertical-align: top;
+	        width: 450px;
+	        text-align: right;
+	        a {
+	        	display: inline-block;
+	        	padding-right: 10px;
+				&:last-child { padding-right: 0; }
+	        }
+	    }
+	}
 
 }
 
-footer {
-	height: 80px;
-	font-size: 10pt;
-	line-height: 20px;
-	.copyright { display: inline-block; width: 450px; }
-    .social {
-        display: inline-block;
-        vertical-align: top;
-        width: 450px;
-        text-align: right;
-        a {
-        	display: inline-block;
-        	padding-right: 10px;
-			&:last-child { padding-right: 0; }
-        }
-    }
- }
+@media only screen and (max-width: 599px)
+{
+	header { 
+		border-top: 8px solid @accent-color;
+
+		width: 100%;
+		text-align: center;
+
+		padding-top: 10px;
+
+		.logo {
+			height: 60px;
+			display: block;
+			width: 220px;
+			margin: 0 auto;
+
+			a { text-decoration: none; }
+
+			.title {
+				font: 300 24pt "Merienda One", sans-serif;
+				margin: 0;
+				color: @heading-color;
+
+				span:nth-child(2) {
+					font-weight: bold;
+					color: #420b2a;
+				}
+		   }
+	    }
+
+		p { font: 500 12pt "Merienda One", sans-serif; text-align: right; margin: 0; padding-right: 20px; }
+
+		nav {
+			height: auto;
+			vertical-align: middle;
+			text-align: center;
+			font-weight: normal;
+			padding: 25px 0 20px 0;
+
+			ul {
+				margin: 0;
+
+				li {
+					text-transform: lowercase;
+					display: inline-block;
+					padding-right: 20px;
+					font-family: Coustard, sans-serif;
+					a { text-decoration: none; color: @link-color; font-size: 14pt; }
+					&:hover { text-decoration: underline; }
+				}
+			}
+		}
+
+	}
+
+	h1 { font-family: Coustard, sans-serif; color: @heading-color; font-weight: 500; font-size: 16pt; }
+
+	.content {
+		background-color: @foreground-color;
+		padding: 5px 15px;
+	}
+
+	.portfolio a {
+		padding-top: 10px;
+		display: block;
+		text-align: center;
+	}
+
+	a[href="https://github.com/colettesnow/"] { display: none; }
+
+	footer {
+		height: 80px;
+		font-size: 8pt;
+		line-height: 20px;
+		padding: 20px 15px;		
+		.copyright { display: block; }
+	    .social {
+	    	margin-top: 20px;
+	        display: block;
+	        a {
+	        	display: inline-block;
+	        	padding-right: 10px;
+				&:last-child { padding-right: 0; }
+	        }
+	    }
+ 	}
+}
