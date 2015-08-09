@@ -4,7 +4,7 @@ title: About Colette Snow
 ---
 # About Colette Snow
 
-Colette has been working with code since she was in the first year of secondary college. Starting out as a hobby, she attended Curtin University for a Bachelor of Arts majoring in Internet Communication (graduation pending) from 2008 and in 2011 started out on her own offering web development services to clients.
+Colette has been working with code since she was in the first year of secondary college. Starting out as a hobby, she attended Curtin University for a Bachelor of Arts majoring in Internet Communication (graduation pending) and in 2011 started out on her own offering web development services to clients.
 
 Colette has a passion for the web and is a strong proponent of web standards and accessibility.
 
@@ -13,10 +13,8 @@ She has experience with the following languages and technologies:
 * HTML4, XHTML 1.1, and HTML5
 * CSS (all current versions), LESS
 * PHP
-* JavaScript, CoffeeScript, jQuery, MooTools, Backbone.JS
-* Google Dart
-* MySQL, MariaSQL, PostgreSQL, SQLite
-* ColdFusion 9
+* JavaScript, CoffeeScript, jQuery
+* MySQL, MariaSQL, SQLite
 * Version Control including Git, Subversion, Mercurial, Bazaar
 * Twitter Bootstrap, 960px
 * CodeIgniter, Laravel and WordPress as a Framework
