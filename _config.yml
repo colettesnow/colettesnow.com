@@ -1,3 +1,5 @@
-markdown: kramdown
-gems:
+gems: 
   - jekyll-sitemap
+kramdown: 
+  input: GFM
+markdown: kramdown
