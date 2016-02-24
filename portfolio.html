@@ -9,30 +9,27 @@ title: Portfolio
 
 <h2 id="open-source">Open Source Projects</h2>
 
-{% assign portfolio = site.portfolio %}
-{% for item in portfolio %}
-    {% if item.type == "projects" %}
-        <p><strong>{{ item.title }}</strong> (<a href="{{ item.url }}">website</a> | <a href="{{ item.source }}">source</a>)<br />
-        {{ item.content }}</p>
-    {% endif %}
+{% assign projects = site.portfolio | where:'type', 'projects' %}
+{% assign wordpress = site.portfolio | where:'type', 'wordpress' %}
+{% assign websites = site.portfolio | where:'type', 'websites' %}
+
+{% for project in projects %}
+    <p><strong>{{ project.title }}</strong> (<a href="{{ project.url }}">website</a> | <a href="{{ project.source }}">source</a>)<br />
+    {{ project.content | remove: '<p>' | remove: '</p>' }}</p>
 {% endfor %}
 
 <h2 id="wordpress">WordPress</h2>
 
 <p class="portfolio">
-	{% for item in portfolio %}
-        {% if item.type == "wordpress" %}
-        <a href="{{ item.screenshot }}" rel="lightbox-wordpress" title="{{ item.caption }}"><img src="{{ item.thumbnail }}" width="260" height="178" /></a>
-        {% endif %}
-	{% endfor %}
+{% for wp in wordpress %}
+    <a href="{{ wp.screenshot }}" rel="lightbox-wordpress" title="{{ wp.caption }}"><img src="{{ wp.thumbnail }}" width="260" height="178" /></a>
+{% endfor %}
 </p>
 
 <h2 id="websites">Websites (non-WordPress)</h2>
 
 <p class="portfolio">
-	{% for item in portfolio %}
-        {% if item.type == "websites" %}
-        <a href="{{ item.screenshot }}" rel="lightbox-websites" title="{{ item.caption }}"><img src="{{ item.thumbnail }}" width="260" height="178" /></a>
-        {% endif %}
-	{% endfor %}
+{% for website in websites %}
+    <a href="{{ website.screenshot }}" rel="lightbox-websites" title="{{ website.caption }}"><img src="{{ website.thumbnail }}" width="260" height="178" /></a>
+{% endfor %}
 </p>
