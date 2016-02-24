@@ -2,32 +2,36 @@
 layout: default
 title: Portfolio
 ---
+{% assign portfolio = site.portfolio %}
 <h1>Portfolio</h1>
 
 <p><a href="#open-source">Open Source</a> | <a href="#wordpress">WordPress</a> | <a href="#websites">Other Websites</a></p>
 
 <h2 id="open-source">Open Source Projects</h2>
 
-<p><strong><a href="https://github.com/colettesnow/Simple-Cache-for-CodeIgniter">Simple Cache for CodeIgniter</a></strong><br />
-Simple Cache for CodeIgniter is an open source file based fragment caching library released under the GNU General Public License. It was designed to be simple to use and easily adaptable to use alternate backends if this was needed in the future. Also compatible with non-CodeIgniter applications.</p>
-
-<p><strong>Muse's Success</strong> (<a href="https://muses-success.info/">website</a> | <a href="https://github.com/colettesnow/muses-success">source</a>)<br />
-Muse's Success is a structured wiki and community that is similar to <a href="https://www.goodreads.com/user/show/2659758-colette-snow">Goodreads</a> but exclusively for web fiction. While the software is specialised to web fiction, it could easily be adapted for other similar mediums such as web comics or video games.</p>
+{% for item in portfolio %}
+    {% if item.type == "projects" %}.
+        <p><strong>{{ item.title }}</strong> (<a href="{{ item.url }}">website</a> | <a href="{{ item.source }}">source</a>)<br />
+        {{ item.content }}</p>
+    {% endif %}
+{% endfor %}
 
 <h2 id="wordpress">WordPress</h2>
 
 <p class="portfolio">
-    <a href="//static.muses-success.info/colettesnow.com/portfolio/magnolia-photo/MagnoliaFull.png" rel="lightbox-wordpress"  title="Development Only / WordPress / HTML+CSS+PHP - Magnolia Photography / Design by Magnolia Photography"><img src="//static.muses-success.info/colettesnow.com/portfolio/magnolia-photo/MagnoliaThumb.png" width="260" height="178" /></a>
-    <a href="//static.muses-success.info/colettesnow.com/portfolio/gallop/gallop-calendar.png" rel="lightbox-wordpress" title="Development + Design / PHP+HTML+CSS+jQuery : Calendar developed for Gallop Solutions - had to be created in such a way that it fit in the small space allowed by the sorrounding layout and fit in with the existing functionality of the website."><img src="//static.muses-success.info/colettesnow.com/portfolio/gallop/gallop-calendar.png" width="260" height="178" /></a>
-    <a href="//static.muses-success.info/colettesnow.com/portfolio/VBAWizard-1024x819.png" rel="lightbox-wordpress" title="Development Only / WordPress / HTML+CSS+PHP - VBA Wizard / Design by Fuzzy Ink Design Studio"><img src="//static.muses-success.info/colettesnow.com/portfolio/VBAWizard.png" width="260" height="178" /></a>
-    <a href="//static.muses-success.info/colettesnow.com/portfolio/CharasConstruction.png" rel="lightbox-wordpress" title="Development Only / WordPress / HTML+CSS+PHP - Charas Construction / Design by Fuzzy Ink Design Studio"><img src="//static.muses-success.info/colettesnow.com/portfolio/CharasConstruction.png" width="260" height="178" /></a>
+	{% for item in portfolio %}
+        {% if item.type == "wordpress" %}.
+        <a href="{{ item.screenshot }}" rel="lightbox-wordpress" title="{{ item.caption }}"><img src="{{ item.thumbnail }}" width="260" height="178" /></a>
+        {% endif %}
+	{% endfor %}
 </p>
 
 <h2 id="websites">Websites (non-WordPress)</h2>
 
 <p class="portfolio">
-    <a href="//static.muses-success.info/colettesnow.com/portfolio/muses-success-2.0/screenshot.png" rel="lightbox-other" title="Design + Development / CodeIgniter / HTML+CSS+PHP+MySQL+jQuery - Muse's Success"><img src="//static.muses-success.info/colettesnow.com/portfolio/muses-success-2.0/screenshot.png" alt="Muse's Success" width="260" height="178" /></a>
-    <a href="//static.sorrowfulunfounded.com/colettesnow.com/portfolio/sdxresearch/screenshot.png" rel="lightbox-other" title="Development Only / Joomla / HTML+CSS+PHP+jQuery - SDX Research / Design by Fuzzy Ink Design Studio"><img src="//static.sorrowfulunfounded.com/colettesnow.com/portfolio/sdxresearch/thumbnail.png" /></a>
-    <a href="//static.sorrowfulunfounded.com/colettesnow.com/portfolio/master-building-solutions/screenshot.png" rel="lightbox-other"><img src="//static.sorrowfulunfounded.com/colettesnow.com/portfolio/master-building-solutions/thumbnail.png" width="260" height="178"  title="Development Only / Static / HTML+CSS / Master Building Solutions / Design by Fuzzy Ink Design Studio" /></a>
-    <a href="//static.sorrowfulunfounded.com/colettesnow.com/portfolio/cassidys-catering/screenshot.png" rel="lightbox-other"  title="Development Only / Joomla / HTML+CSS+jQuery / Cassidy's Catering / Design by Fuzzy Ink Design Studio"><img src="//static.sorrowfulunfounded.com/colettesnow.com/portfolio/cassidys-catering/thumbnailx.png" width="260" height="178" /></a>
+	{% for item in portfolio %}
+        {% if item.type == "websites" %}.
+        <a href="{{ item.screenshot }}" rel="lightbox-wordpress" title="{{ item.caption }}"><img src="{{ item.thumbnail }}" width="260" height="178" /></a>
+        {% endif %}
+	{% endfor %}
 </p>

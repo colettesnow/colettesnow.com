@@ -3,3 +3,6 @@ gems:
 kramdown: 
   input: GFM
 markdown: kramdown
+collections:
+  portfolio:
+    output: false
