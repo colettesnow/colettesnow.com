@@ -1,6 +1,6 @@
 ---
 title: Simple Cache for CodeIgniter
-url: https://github.com/colettesnow/Simple-Cache-for-CodeIgniter
+url: /projects/simple-cache.html
 source: https://github.com/colettesnow/Simple-Cache-for-CodeIgniter
 type: projects
 technology: [ PHP, CodeIgniter ]
