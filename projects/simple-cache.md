@@ -5,7 +5,7 @@ title: Services
 
 # Simple Cache for CodeIgniter
 
-[Download (zip)]{https://github.com/colettesnow/Simple-Cache-for-CodeIgniter/archive/master.zip} | [GitHub Repository]{https://github.com/colettesnow/Simple-Cache-for-CodeIgniter}
+[Download (zip)](https://github.com/colettesnow/Simple-Cache-for-CodeIgniter/archive/master.zip) | [GitHub Repository](https://github.com/colettesnow/Simple-Cache-for-CodeIgniter)
 
 Developed by [Colette Snow](http://colettesnow.com/) and released under the [GNU General Public License](https://github.com/colettesnow/Simple-Cache-for-CodeIgniter/blob/master/LICENSE).
 
