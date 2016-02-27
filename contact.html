@@ -9,12 +9,13 @@ title: Contact Colette Snow
 <div class="contact_form">
 	<p>You can email Colette directly at <a href="mailto:colette@colettesnow.com">colette@colettesnow.com</a> or using the contact form below.</p>
 
-	<form action="http://getsimpleform.com/messages?form_api_token=4d8d5041b0028cf9298cde3b14413578" method="post">
-	  <input type="hidden" name="redirect_to" value="http://colettesnow.com/contact-thankyou.html" />
+	<form action="http://formspree.io/colette@colettesnow.com" method="post">
+       <input type="hidden" name="_next" value="https://colettesnow.com/contact-thankyou.html" />
 	  <fieldset>
 	  <label><strong>Name</strong> <input type="text" name="name" required="required" /></label>
-	  <label><strong>Email</strong> <input type="email" name="email" required="required" /></label>
-	  <label><strong>Message</strong> <textarea name="message" required="required"></textarea></label>  
+	  <label><strong>Email</strong> <input type="email" name="_replyto" required="required" /></label>
+	  <label><strong>Message</strong> <textarea name="message" required="required"></textarea></label>
+      <input type="text" name="_gotcha" style="display:none" />  
 	  </fieldset>
 	  <input type="submit" value="Send Message" />
 	</form>
