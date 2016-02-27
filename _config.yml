@@ -2,6 +2,7 @@ gems:
   - jekyll-sitemap
 kramdown: 
   input: GFM
+  syntax_highlighter: rouge
 markdown: kramdown
 collections:
   portfolio:
