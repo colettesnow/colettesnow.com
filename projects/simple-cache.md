@@ -31,7 +31,7 @@ The following code should be self-explanatory.
 
 ### Code with CodeIgniter
 
-```php
+{% highlight php linenos %}
 <?php
 class Test extends Controller {
 
@@ -60,11 +60,11 @@ class Test extends Controller {
 	
 }
 ?>
-```
+{% endhighlight %}
 
 ### Code for non-CodeIgniter users
 
-```php
+{% highlight php linenos %}
 <?php
 require_once 'Simple_cache.php';
 
@@ -89,7 +89,7 @@ if (!$cache->is_cached('key'))
 // outputs Hello World
 echo $data['print'];
 ?>
-```
+{% endhighlight %}
 
 ## Recommendations
 
