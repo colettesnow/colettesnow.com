@@ -14,6 +14,8 @@ body {
 
 a { color: @link-color; }
 
+.portfolio img { width: 260px; height: 178px; }
+
 @media only screen and (min-width: 600px)
 {
 
@@ -150,6 +152,21 @@ a { color: @link-color; }
 
 }
 
+@media only screen and (max-width: 599px) and (min-width: 540px)
+{
+	.content .inner { width: 530px; }
+	.portfolio a { display: inline-block; }
+	.portfolio img { padding-top: 2px; }
+}
+
+@media only screen and ( max-width: 539px )
+{
+	.content .inner { width: auto; }
+	.portfolio { width: 100%; }
+	.portfolio a { display: block; text-align: center; padding-top: 10px; }
+	.portfolio a img { resize: both; width: 100%; max-width: 100%; height: auto !important; width: auto/9; }
+}
+
 @media only screen and (max-width: 599px)
 {
 	header { 
@@ -210,12 +227,6 @@ a { color: @link-color; }
 	.content {
 		background-color: @foreground-color;
 		padding: 5px 15px;
-	}
-
-	.portfolio a {
-		padding-top: 10px;
-		display: block;
-		text-align: center;
 	}
 
 	.contact_form {

@@ -22,7 +22,7 @@ title: Portfolio
 
 <p class="portfolio">
 {% for wp in wordpress %}
-    <a href="{{ wp.screenshot }}" rel="lightbox-wordpress" title="{{ wp.caption }}"><img src="{{ wp.thumbnail }}" width="260" height="178" /></a>
+    <a href="{{ wp.screenshot }}" rel="lightbox-wordpress" title="{{ wp.caption }}"><img src="{{ wp.thumbnail }}" /></a>
 {% endfor %}
 </p>
 
@@ -30,6 +30,6 @@ title: Portfolio
 
 <p class="portfolio">
 {% for website in websites %}
-    <a href="{{ website.screenshot }}" rel="lightbox-websites" title="{{ website.caption }}"><img src="{{ website.thumbnail }}" width="260" height="178" /></a>
+    <a href="{{ website.screenshot }}" rel="lightbox-websites" title="{{ website.caption }}"><img src="{{ website.thumbnail }}" /></a>
 {% endfor %}
 </p>
