@@ -8,7 +8,6 @@ title: Services
 Below are just some of the services I offer:
 
 * [WordPress Theme or Plugin Development](#wordpress-theme-or-plugin-development)
-* [Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development](#other-content_management-system-blog-and-forum-customisation-theme-and-plugin-development)
 * [Custom Web Development](#custom-web-development)
 * [Design to HTML or Email](#design-to-html-or-email)
 
@@ -21,50 +20,6 @@ WordPress is an open-source blogging and content management platform. It allows 
 I can customise WordPress to meet nearly any need, whether that includes an online store or photo gallery or just a simple content focused website. Every website I create will be accessible, standards compliant, and social media and search engine friendly.
 
 If you are interested in using WordPress for your next or existing website, do not hesitate to get into [contact](/contact.html) and I will see through discussion with you how I can best meet your needs. I can also extend your existing WordPress website if you are already using the platform.
-
-## Other Content Management System, Blog and Forum Customisation, Theme and Plugin Development
-
-While I specialise in WordPress, I can also work with the following platforms. If the platform you want isn't listed, get in touch and I will look into it.
-
-### Blogs
-
-* Chyrp
-* Edge
-* Habari
-* Serendipity
-* Squarespace
-
-### Content Management Systems
-
-* CMS Made System
-* concrete5
-* DotClear
-* Drupal
-* Joomla
-
-### Forums
-
-* bbPress
-* Discourse
-* FluxBB / PunBB
-* MyBB
-* phpBB
-* Simple Machines Forum
-* Vanilla
-
-### eCommerce
-
-* BigCommerce
-* Magento
-* OpenCart
-* osCommerce
-* Shopify
-
-For each of these software and services, I can customise them to meet your needs through theme and plugin development.
-
-*Themes* change the look of your website while *plugins* extend the software to offer features that were not originally offered by the software or to change the way an existing feature works.
-
-You can find examples of my work in the [portfolio](/portfolio.html#websites) or [get in touch](/contact.html) for a quote.
 
 ## Custom Web Development
 
